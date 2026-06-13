@@ -127,22 +127,21 @@ class MainHook : XposedModule() {
                 name == "camera.burrata_eligible" ||
 
                 // Photo Sphere
-                name == "lightcycle_enabled"
+                name == "lightcycle_enabled" ||
+
+                // Super Res Zoom in Video Boost. Enables 20x zoom but it doesn't auto switch to Tele lens
+                name == "camcorder.rose_eligible" ||
+                name == "camcorder_rose" ||
+
+                // Supposed to enable UW & tele lens in Video Boost/Night Sight video
+                name == "camcorder_shortite" ||
+                name == "camcorder.topaz"
+
     }
 }
 
 /*
 Discovered but not included flags. Feel free to try them anyway.
-
-// Super Res Zoom in Video Boost. Enables 20x zoom but doesn't auto switch to Tele lens, so pretty useless
-name == "camcorder.rose_eligible" ||
-name == "camcorder_rose" ||
-
-// Supposed to enable Tele lens in Night Sight video, but does nothing
-name == "camcorder_shortite" ||
-
-// Supposed to enable UW lens in Night Sight video, but does nothing
-name == "camcorder.topaz" ||
 
 // 100x Zoom. Local model is specific to Tensor G5, so doesn't work
 name == "camera.enable_centaur_setting" ||
