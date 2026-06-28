@@ -121,13 +121,12 @@ class MainHook : XposedModule() {
     val fProStableVideo = arrayOf("camcorder_jasper")
     val fAddMe = arrayOf("camera.cottage_enabled")
     val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
-    val fMotionPhotos = arrayOf("camera.enable_micro", "micro_video_supported", "camera.micro_motion")
 
-    val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe, fAutoBestTake, fMotionPhotos)
-    val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fEightK24FPS, fAutoBestTake, fMotionPhotos)
+    val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe, fAutoBestTake)
+    val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fEightK24FPS, fAutoBestTake)
     val modelTenPro = arrayOf(fPhotoSphere)
     val modelTen = arrayOf(fPhotoSphere)
-    val modelDefault = arrayOf(fPhotoSphere, fCameraCoach, fAutoBestTake, fMotionPhotos)
+    val modelDefault = arrayOf(fPhotoSphere, fCameraCoach, fAutoBestTake)
 }
 
 /*
