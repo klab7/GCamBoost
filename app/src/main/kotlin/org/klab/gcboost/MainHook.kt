@@ -107,6 +107,7 @@ class MainHook : XposedModule() {
             "husky" -> modelEightPro
             "komodo", "caiman", "comet" -> modelNinePro
             "mustang", "blazer", "frankel" -> modelTenPro
+            "frankel", "stallion"  -> modelTen
             else -> modelDefault
         }
         return flagsToCheck.any { it.contains(name) }
@@ -125,6 +126,7 @@ class MainHook : XposedModule() {
     val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe, fAutoBestTake, fMotionPhotos)
     val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fEightK24FPS, fAutoBestTake, fMotionPhotos)
     val modelTenPro = arrayOf(fPhotoSphere)
+    val modelTen = arrayOf(fPhotoSphere)
     val modelDefault = arrayOf(fPhotoSphere, fCameraCoach, fAutoBestTake, fMotionPhotos)
 }
 
