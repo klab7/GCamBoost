@@ -5,6 +5,7 @@ import io.github.libxposed.api.XposedModule
 import io.github.libxposed.api.XposedModuleInterface
 import java.lang.reflect.Modifier
 import java.util.HashSet
+import android.os.Build
 
 class MainHook : XposedModule() {
     private val processedClasses = HashSet<String>()
@@ -101,56 +102,51 @@ class MainHook : XposedModule() {
     }
 
     private fun isTargetFlag(name: String): Boolean {
-        return name == "camera.cottage_enabled" || //Add Me
-
-                // Night Sight Video
-                name == "camcorder_vega" ||
-                name == "camcorder.vega_eligible" ||
-                name == "camcorder.surface_share"  ||
-
-                // 4K 60FPS (Video Boost)
-                name == "camcorder_enable_onyx" ||
-                name == "camcorder.enable_onyx_eligible"||
-
-                // 8K (Video Boost)
-                name == "camcorder.bison_eligible" ||
-                name == "camcorder_bison" ||
-
-                // 8K 24FPS (Video Boost)
-                name == "camcorder_axinite" ||
-
-                // Pro Stable (Video Boost)
-                name == "camcorder_jasper" ||
-
-                // Camera Coach
-                name == "camera.enable_burrata" ||
-                name == "camera.burrata_eligible" ||
-
-                // Photo Sphere
-                name == "lightcycle_enabled" ||
-
-                // Super Res Zoom in Video Boost. Enables 20x zoom but it doesn't auto switch to Tele lens
-                name == "camcorder.rose_eligible" ||
-                name == "camcorder_rose" ||
-
-                // Supposed to enable UW & tele lens in Video Boost/Night Sight video
-                name == "camcorder_shortite" ||
-                name == "camcorder.topaz"
-
+        val device = Build.DEVICE
+        val flagsToCheck = when (device) {
+            "husky" -> modelEightPro
+            "komodo", "caiman", "comet" -> modelNinePro
+            "mustang", "blazer", "frankel" -> modelTenPro
+            else -> modelDefault
+        }
+        return flagsToCheck.any { it.contains(name) }
     }
+    val fCameraCoach = arrayOf("camera.enable_burrata", "camera.burrata_eligible")
+    val fPhotoSphere = arrayOf("lightcycle_enabled")
+    val fNightSightVideo = arrayOf("camcorder_vega", "camcorder.vega_eligible")
+    val fFourK60HDR = arrayOf("camcorder_enable_onyx", "camcorder.enable_onyx_eligible")
+    val fEightK = arrayOf("camcorder.bison_eligible", "camcorder_bison")
+    val fEightK24FPS = arrayOf("camcorder_axinite")
+    val fProStableVideo = arrayOf("camcorder_jasper")
+    val fAddMe = arrayOf("camera.cottage_enabled")
+    val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
+    val fMotionPhotos = arrayOf("camera.enable_micro", "micro_video_supported", "camera.micro_motion")
+
+    val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe, fAutoBestTake, fMotionPhotos)
+    val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fEightK24FPS, fAutoBestTake, fMotionPhotos)
+    val modelTenPro = arrayOf(fPhotoSphere)
+    val modelDefault = arrayOf(fPhotoSphere, fCameraCoach, fAutoBestTake, fMotionPhotos)
 }
 
 /*
 Discovered but not included flags. Feel free to try them anyway.
 
-// 100x Zoom. Local model is specific to Tensor G5, so doesn't work
-name == "camera.enable_centaur_setting" ||
-name == "camera.enable_centaur_chip" ||
-name == "camera.enable_centaur_chip_in_app_flow" ||
-name == "camera.enable_boba_jelly" ||
-name == "camera.boba_jelly_eligible" ||
+    // 100x Zoom. Local model is specific to Tensor G5, so doesn't work
+    val fHundredXZoom = arrayOf("camera.enable_centaur_setting", "camera.enable_centaur_chip", "camera.enable_centaur_chip_in_app_flow", "camera.enable_boba_jelly", "camera.boba_jelly_eligible")
 
-// C2PA Content Credentials. Does nothing without hardware support
-name == "camera.blanket" ||
-name == "camera.blanket_eligible" ||
+    // High-Res Portrait - requires hardware support
+    val fHighResPortrait = arrayOf("camera.crawfish_enabled", "camera.gouda.enable_unbinned_crop", "camera.gouda.support_unbinned_crop")
+
+    // C2PA Content Credentials. Does nothing without hardware support
+    val fC2PA = arrayOf("camera.blanket", "camera.blanket_eligible")
+
+    // Super Res Zoom in Video Boost. Enables 20x zoom but doesn't auto switch to Tele lens, so pretty useless
+    val fSuperResZoomVideo = arrayOf("camcorder.rose_eligible", "camcorder_rose")
+
+    // Supposed to enable Tele lens in Night Sight video, but does nothing
+    val fNightSightVideoTele = arrayOf("camcorder_shortite")
+
+    // Supposed to enable UW lens in Night Sight video, but does nothing
+    val fNightSightVideoUW = arrayOf("camcorder.topaz")
+
 */

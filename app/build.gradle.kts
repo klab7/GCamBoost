@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "org.klab.gcboost"
-        minSdk = 36
+        minSdk = 31
         targetSdk = 37
         versionCode = project.property("versionCode").toString().toInt()
         versionName = project.property("versionName").toString()
