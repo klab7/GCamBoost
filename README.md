@@ -8,20 +8,20 @@ Tested on Pixel 8 Pro with GCam [10.3.183.888945295.14](https://www.apkmirror.co
 ⚠️ Video Boost cloud processing won't work if you use Unlimited Storage (Pixel XL spoof).
 
 ## Features
-| Feature                            | P8P |  P8P + Module  | P9P |  P9P + Module  | P10P |
-|------------------------------------|:---:|:--------------:|:---:|:--------------:|:----:|
-| **Photo Sphere**                   |  ❌  |       ✅        |  ❌  |       ✅        |  ❌   |
-| **Add Me**                         |  ❌  |       ✅        |  ✅  |       ✅        |  ✅   |
-| **Night Sight Video**              |  ❌  |       ✅        |  ✅  |       ✅        |  ✅   |
-| **4K 60FPS Video Boost**           |  ❌  |       ✅        |  ✅  |       ✅        |  ✅   |
-| **8K 30FPS Video Boost**           |  ❌  |       ✅        |  ✅  |       ✅        |  ✅   |
-| **UW & Tele lenses in Video Boost** |  ❌  |       ❌        |  ✅  |       ✅        |  ✅   |
-| **8K 24FPS Video Boost**           |  ❌  |       ✅        |  ❌  |       ✅        |  ✅   |
-| **Camera Coach**                   |  ❌  |       ✅        |  ❌  |       ✅        |  ✅   |
-| **Auto Best Take**                 |  ❌  |       ✅        |  ❌  |       ✅        |  ✅   |
-| **Motion Photo**                   |  ❌  |       ✅        |  ❌  |       ✅        |  ✅   |
-| **UW & Tele lenses in Night Sight** |  ❌  |       ❌        |  ❌  |       ❌        |  ✅   |
-| **100x Zoom**                      |  ❌  |       ❌        |  ❌  |       ❌        |  ✅   |
+| Feature                             | P8P | P8P + Module | P9P | P9P + Module | P10P |
+|-------------------------------------|:---:|:------------:|:---:|:------------:|:----:|
+| **Photo Sphere**                    |  ❌  |      ✅       |  ❌  |      ✅       |  ❌   |
+| **Add Me**                          |  ❌  |      ✅       |  ✅  |      ✅       |  ✅   |
+| **Night Sight Video**               |  ❌  |      ✅       |  ✅  |      ✅       |  ✅   |
+| **4K 60FPS Video Boost**            |  ❌  |      ✅       |  ✅  |      ✅       |  ✅   |
+| **8K 30FPS Video Boost**            |  ❌  |      ✅       |  ✅  |      ✅       |  ✅   |
+| **UW & Tele lenses in Video Boost** |  ❌  |      ❌       |  ✅  |      ✅       |  ✅   |
+| **8K 24FPS Video Boost**            |  ❌  |      ✅       |  ❌  |      ✅       |  ✅   |
+| **Camera Coach**                    |  ❌  |      ✅       |  ❌  |      ✅       |  ✅   |
+| **Auto Best Take**                  |  ❌  |      ✅       |  ❌  |      ✅       |  ✅   |
+| **Motion Photo**                    |  ❌  |      ✅       |  ❌  |      ✅       |  ✅   |
+| **UW & Tele lenses in Night Sight** |  ❌  |      ❌       |  ❌  |      ❌       |  ✅   |
+| **100x Zoom**                       |  ❌  |      ❌       |  ❌  |      ❌       |  ✅   |
 
 Unavailable features are hardware dependent. If you know any workarounds, please let me know via [pull request](https://github.com/klab7/GCamBoost/pulls) or [issue](https://github.com/klab7/GCamBoost/issues/new).
 
