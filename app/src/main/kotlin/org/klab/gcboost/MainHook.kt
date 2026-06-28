@@ -105,8 +105,10 @@ class MainHook : XposedModule() {
         val device = Build.DEVICE
         val flagsToCheck = when (device) {
             "husky" -> modelEightPro
+            "shiba", "akita" -> modelEight
             "komodo", "caiman", "comet" -> modelNinePro
-            "mustang", "blazer", "frankel" -> modelTenPro
+            "tokay", "tegu" -> modelNine
+            "mustang", "blazer", "rango" -> modelTenPro
             "frankel", "stallion"  -> modelTen
             else -> modelDefault
         }
@@ -122,11 +124,13 @@ class MainHook : XposedModule() {
     val fAddMe = arrayOf("camera.cottage_enabled")
     val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
 
-    val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe, fAutoBestTake)
-    val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fEightK24FPS, fAutoBestTake)
+    val modelEightPro = arrayOf(fCameraCoach, fPhotoSphere, fAutoBestTake, fNightSightVideo, fFourK60HDR, fEightK, fEightK24FPS, fProStableVideo, fAddMe)
+    val modelEight = arrayOf(fCameraCoach, fPhotoSphere, fAutoBestTake, fAddMe)
+    val modelNinePro = arrayOf(fCameraCoach, fPhotoSphere, fAutoBestTake, fEightK24FPS)
+    val modelNine = arrayOf(fCameraCoach, fPhotoSphere, fAutoBestTake)
     val modelTenPro = arrayOf(fPhotoSphere)
     val modelTen = arrayOf(fPhotoSphere)
-    val modelDefault = arrayOf(fPhotoSphere, fCameraCoach, fAutoBestTake)
+    val modelDefault = arrayOf(fCameraCoach, fAutoBestTake)
 }
 
 /*
