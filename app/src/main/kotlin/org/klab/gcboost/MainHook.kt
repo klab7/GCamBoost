@@ -136,22 +136,19 @@ class MainHook : XposedModule() {
 /*
 Discovered but not included flags. Feel free to try them anyway.
 
-    // 100x Zoom. Local model is specific to Tensor G5, so doesn't work
+    // 100x Zoom. Needs hardware support.
     val fHundredXZoom = arrayOf("camera.enable_centaur_setting", "camera.enable_centaur_chip", "camera.enable_centaur_chip_in_app_flow", "camera.enable_boba_jelly", "camera.boba_jelly_eligible")
 
-    // High-Res Portrait - requires hardware support
+    // High-Res Portrait. Needs hardware support.
     val fHighResPortrait = arrayOf("camera.crawfish_enabled", "camera.gouda.enable_unbinned_crop", "camera.gouda.support_unbinned_crop")
 
-    // C2PA Content Credentials. Does nothing without hardware support
+    // C2PA Content Credentials. Needs hardware support.
     val fC2PA = arrayOf("camera.blanket", "camera.blanket_eligible")
 
-    // Super Res Zoom in Video Boost. Enables 20x zoom but doesn't auto switch to Tele lens, so pretty useless
+    // Super Res Zoom in Video Boost. Enables 20x zoom but doesn't auto switch to Tele lens, so pretty useless. Needs hardware support.
     val fSuperResZoomVideo = arrayOf("camcorder.rose_eligible", "camcorder_rose")
 
-    // Supposed to enable Tele lens in Night Sight video, but does nothing
-    val fNightSightVideoTele = arrayOf("camcorder_shortite")
-
-    // Supposed to enable UW lens in Night Sight video, but does nothing
-    val fNightSightVideoUW = arrayOf("camcorder.topaz")
+    // UW lens in Video Boost. Needs hardware support.
+    val fNightSightVideoUW = arrayOf("camcorder_shortite")
 
 */
