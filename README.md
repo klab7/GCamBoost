@@ -8,23 +8,23 @@ Tested on Pixel 8 Pro with GCam [11.0.073.961838058.30](https://www.apkmirror.co
 ⚠️ Video Boost cloud processing won't work if you use Unlimited Storage (Pixel XL spoof).
 
 ## Features
-| Feature                       | P8P + Module | P9P + Module | P10P + Module | P11P + Module |
-|-------------------------------|:------------:|:------------:|---------------|---------------|
-| **Photo Sphere**              |      ✅       |      ✅       | ✅             | ✅             |
-| **Add Me**                    |      ✅       |      ➖       | ➖             | ➖             |
-| **Night Sight Video**         |      ✅       |      ➖       | ➖             | ➖             |
-| **4K 60FPS Video Boost**      |      ✅       |      ➖       | ➖             | ➖             |
-| **8K 30FPS Video Boost**      |      ✅       |      ➖       | ➖             | ➖             |
-| **Tele lens in Video Boost**  |      ❌       |      ➖       | ➖             | ➖             |
-| **8K 24FPS Video Boost**      |      ✅       |      ✅       | ➖             | ➖             |
-| **Camera Coach**              |      ✅       |      ✅       | ➖             | ➖             |
-| **Motion Photo**              |      ✅       |      ✅       | ➖             | ➖             |
-| **Quick Access Controls**     |      ✅       |      ✅       | ✅             | ➖             |
-| **UW lens in Video Boost**    |      ❌       |      ❌       | ➖             | ➖             |
-| **High-Res Portrait (50 MP)** |      ❌       |      ❌       | ➖             | ➖             |
-| **100x Zoom**                 |      ❌       |      ❌       | ➖             | ➖             |
-| **Magic Capture**             |      ❌       |      ❌       | ❌             | ➖             |
-| **Looks**                     |      ❌       |      ❌       | ❌             | ➖             |
+| Feature                       | P8P + Module | P9P + Module |  P10P + Module  |  P11P + Module  |
+|-------------------------------|:------------:|:------------:|:---------------:|:---------------:|
+| **Photo Sphere**              |      ✅       |      ✅       |        ✅        |        ✅        |
+| **Add Me**                    |      ✅       |      ➖       |        ➖        |        ➖        |
+| **Night Sight Video**         |      ✅       |      ➖       |        ➖        |        ➖        |
+| **4K 60FPS Video Boost**      |      ✅       |      ➖       |        ➖        |        ➖        |
+| **8K 30FPS Video Boost**      |      ✅       |      ➖       |        ➖        |        ➖        |
+| **Tele lens in Video Boost**  |      ❌       |      ➖       |        ➖        |        ➖        |
+| **8K 24FPS Video Boost**      |      ✅       |      ✅       |        ➖        |        ➖        |
+| **Camera Coach**              |      ✅       |      ✅       |        ➖        |        ➖        |
+| **Motion Photo**              |      ✅       |      ✅       |        ➖        |        ➖        |
+| **Quick Access Controls**     |      ✅       |      ✅       |        ✅        |        ➖        |
+| **UW lens in Video Boost**    |      ❌       |      ❌       |        ➖        |        ➖        |
+| **High-Res Portrait (50 MP)** |      ❌       |      ❌       |        ➖        |        ➖        |
+| **100x Zoom**                 |      ❌       |      ❌       |        ➖        |        ➖        |
+| **Magic Capture**             |      ❌       |      ❌       |        ❌        |        ➖        |
+| **Looks**                     |      ❌       |      ❌       |        ❌        |        ➖        |
 
 Unavailable features are hardware dependent. If you know any workarounds, please let me know via [pull request](https://github.com/klab7/GCamBoost/pulls) or [issue](https://github.com/klab7/GCamBoost/issues/new).
 
