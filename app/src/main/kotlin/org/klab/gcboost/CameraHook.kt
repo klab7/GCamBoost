@@ -104,6 +104,8 @@ class CameraHook(private val module: MainHook) {
             "tokay", "tegu" -> Models.modelNine
             "mustang", "blazer", "rango" -> Models.modelTenPro
             "frankel", "stallion"  -> Models.modelTen
+            "grizzly", "kodiak", "yogi" -> Models.modelElevenPro
+            "cubs"  -> Models.modelEleven
             else -> Models.modelDefault
         }
         return flagsToCheck.any { it.contains(name) }

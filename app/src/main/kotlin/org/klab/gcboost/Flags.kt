@@ -1,7 +1,7 @@
 package org.klab.gcboost
 
 object Flags {
-    val fCameraCoach = arrayOf("camera.enable_burrata", "camera.burrata_eligible")
+    val fCameraCoach = arrayOf("camera.enable_burrata", "camera.burrata_eligible", "camera.burrata_enable_inspiration")
     val fPhotoSphere = arrayOf("lightcycle_enabled")
     val fNightSightVideo = arrayOf("camcorder_vega", "camcorder.vega_eligible")
     val fFourK60HDR = arrayOf("camcorder_enable_onyx", "camcorder.enable_onyx_eligible")
@@ -9,7 +9,7 @@ object Flags {
     val fEightK24FPS = arrayOf("camcorder_axinite")
     val fProStableVideo = arrayOf("camcorder_jasper")
     val fAddMe = arrayOf("camera.cottage_enabled")
-    val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
+    val fQuickAccess = arrayOf("camera.quick_access_customization_enabled", "camera.quick_access_tick_sliders_enabled")
 
     // Need hardware support.
     val fVideoBoost = arrayOf("camcorder_sapphire_opt", "camcorder.sapphire_opt_eligible")
@@ -18,4 +18,7 @@ object Flags {
     val fC2PA = arrayOf("camera.blanket", "camera.blanket_eligible") 
     val fSuperResZoomVideo = arrayOf("camcorder.rose_eligible", "camcorder_rose")
     val fNightSightVideoUW = arrayOf("camcorder_shortite")
+    val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
+    val fLooks = arrayOf("camera.sauce_enabled", "camera.sauce_eligible", "camera.sauce_onboarding_enabled")
+    val fMagicCapture = arrayOf("camera.comice_enabled", "camera.comice_enabled_switch", "camera.comice_aurora_shutter_button_enabled", "camera.comice_options_menu_enabled", "camera.comice_auto_edit", "camera.comice_sapphire_enabled", "camera.comice_zoom_slider")
 }

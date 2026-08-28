@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "org.klab.gcboost"
-        minSdk = 31
+        minSdk = 36
         targetSdk = 37
         versionCode = project.property("versionCode").toString().toInt()
         versionName = project.property("versionName").toString()
@@ -17,6 +17,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
