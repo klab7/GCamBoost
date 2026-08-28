@@ -23,7 +23,7 @@ Tested on Pixel 8 Pro with GCam [11.0.073.961838058.30](https://www.apkmirror.co
 | **High-Res Portrait (50 MP)** |      ❌       |      ❌       |        ➖        |        ➖        |
 | **100x Zoom**                 |      ❌       |      ❌       |        ➖        |        ➖        |
 | **Magic Capture**             |      ❌       |      ❌       |        ❌        |        ➖        |
-| **Looks**                     |      ❌       |      ❌       |        ❌        |        ➖        |
+| **Camera Looks**              |      ❌       |      ❌       |        ❌        |        ➖        |
 
 Unavailable features are hardware dependent. If you know any workarounds, please let me know via [pull request](https://github.com/klab7/GCamBoost/pulls) or [issue](https://github.com/klab7/GCamBoost/issues/new).
 
