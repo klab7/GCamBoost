@@ -18,7 +18,6 @@ Tested on Pixel 8 Pro with GCam [11.0.073.961838058.30](https://www.apkmirror.co
 | **Tele lens in Video Boost**  |      ❌       |      ➖       |        ➖        |        ➖        |
 | **8K 24FPS Video Boost**      |      ✅       |      ✅       |        ➖        |        ➖        |
 | **Camera Coach**              |      ✅       |      ✅       |        ➖        |        ➖        |
-| **Motion Photo**              |      ✅       |      ✅       |        ➖        |        ➖        |
 | **Quick Access Controls**     |      ✅       |      ✅       |        ✅        |        ➖        |
 | **UW lens in Video Boost**    |      ❌       |      ❌       |        ➖        |        ➖        |
 | **High-Res Portrait (50 MP)** |      ❌       |      ❌       |        ➖        |        ➖        |
