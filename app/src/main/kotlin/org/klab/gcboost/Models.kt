@@ -1,7 +1,7 @@
 package org.klab.gcboost
 
 object Models {
-    val modelEightPro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fNightSightVideo, Flags.fFourK60HDR, Flags.fEightK, Flags.fEightK24FPS, Flags.fProStableVideo, Flags.fAddMe, Flags.fQuickAccess)
+    val modelEightPro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fNightSightVideo, Flags.fFourK60HDR, Flags.fEightK, Flags.fEightK24FPS, Flags.fProStableVideo, Flags.fAddMe, Flags.fQuickAccess, Flags.fVideoBoostTele, Flags.fVideoBoostUW)
     val modelEight = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fAddMe, Flags.fQuickAccess)
     val modelNinePro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fEightK24FPS, Flags.fQuickAccess)
     val modelNine = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fQuickAccess)
