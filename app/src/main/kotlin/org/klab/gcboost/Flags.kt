@@ -10,15 +10,25 @@ object Flags {
     val fProStableVideo = arrayOf("camcorder_jasper")
     val fAddMe = arrayOf("camera.cottage_enabled")
     val fQuickAccess = arrayOf("camera.quick_access_customization_enabled", "camera.quick_access_tick_sliders_enabled")
+    val fLooks = arrayOf("camera.sauce_enabled","camera.sauce_eligible", "camera.sauce_onboarding_enabled", "camera.sauce")
+    val fMantisPortrait = arrayOf("camera.gouda.mantis")
+    val fTenXZoom = arrayOf("pseudo_flag.10x_zoom")
+    val fProControls = arrayOf("camera.ark_enabled", "camera.ark_ISO_available", "camera.ark_shutter_speed_available", "camera.ark_focus_available", "camera.ark_edge_hex")
 
     // Need hardware support.
     val fVideoBoost = arrayOf("camcorder_sapphire_opt", "camcorder.sapphire_opt_eligible")
     val fHundredXZoom = arrayOf("camera.enable_centaur_setting", "camera.enable_centaur_chip", "camera.enable_centaur_chip_in_app_flow", "camera.enable_boba_jelly", "camera.boba_jelly_eligible")
-    val fHighResPortrait = arrayOf("camera.crawfish_enabled", "camera.gouda.enable_unbinned_crop", "camera.gouda.support_unbinned_crop") 
+    val fHighResPortrait = arrayOf("camera.crawfish_enabled", "camera.gouda.enable_unbinned_crop", "camera.gouda.support_unbinned_crop")
     val fC2PA = arrayOf("camera.blanket", "camera.blanket_eligible") 
     val fSuperResZoomVideo = arrayOf("camcorder.rose_eligible", "camcorder_rose")
     val fNightSightVideoUW = arrayOf("camcorder_shortite")
     val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
-    val fLooks = arrayOf("camera.sauce_enabled", "camera.sauce_eligible", "camera.sauce_onboarding_enabled")
     val fMagicCapture = arrayOf("camera.comice_enabled", "camera.comice_enabled_switch", "camera.comice_aurora_shutter_button_enabled", "camera.comice_options_menu_enabled", "camera.comice_auto_edit", "camera.comice_sapphire_enabled", "camera.comice_zoom_slider")
+
+    val fZoomFloat = mapOf(
+        "camera.gouda.mantis_ratio_transition" to 4.3f
+    )
+    val fZoomInt = mapOf(
+        "camera.centaur_focus_detection_override" to 4
+    )
 }
