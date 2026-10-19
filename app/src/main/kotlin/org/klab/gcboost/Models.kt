@@ -1,13 +1,13 @@
 package org.klab.gcboost
 
 object Models {
-    val modelSixSevenPro = arrayOf(Flags.fCameraCoach, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fTenXZoom)
-    val modelEightPro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fNightSightVideo, Flags.fFourK60HDR, Flags.fEightK, Flags.fEightK24FPS, Flags.fProStableVideo, Flags.fAddMe, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fTenXZoom)
-    val modelEight = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fAddMe, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls)
-    val modelNinePro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fEightK24FPS, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait)
-    val modelNine = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls)
-    val modelTenPro = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait)
-    val modelTen = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls)
+    val modelSixSevenPro = arrayOf(Flags.fCameraCoach, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fTenXZoom, Flags.fVideoCinematic24FPS)
+    val modelEightPro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fNightSightVideo, Flags.fFourK60HDR, Flags.fEightK, Flags.fEightK24FPS, Flags.fProStableVideo, Flags.fAddMe, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fTenXZoom, Flags.fVideoCinematic24FPS)
+    val modelEight = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fAddMe, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
+    val modelNinePro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fEightK24FPS, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fVideoCinematic24FPS)
+    val modelNine = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
+    val modelTenPro = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fVideoCinematic24FPS)
+    val modelTen = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
     val modelElevenPro = arrayOf(Flags.fPhotoSphere)
     val modelEleven = arrayOf(Flags.fPhotoSphere, Flags.fProControls)
     val modelDefault = arrayOf(Flags.fCameraCoach, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls)
