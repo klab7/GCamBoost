@@ -15,6 +15,7 @@ object Flags {
     val fTenXZoom = arrayOf("pseudo_flag.10x_zoom")
     val fProControls = arrayOf("camera.ark_enabled", "camera.ark_ISO_available", "camera.ark_shutter_speed_available", "camera.ark_focus_available", "camera.ark_edge_hex")
     val fVideoCinematic24FPS = arrayOf("camcorder.stoop")
+    val fVideoCinematic4K = arrayOf("camcorder.peregrine")
 
     // Need hardware support.
     val fVideoBoost = arrayOf("camcorder_sapphire_opt", "camcorder.sapphire_opt_eligible")
@@ -25,7 +26,6 @@ object Flags {
     val fNightSightVideoUW = arrayOf("camcorder_shortite")
     val fAutoBestTake = arrayOf("camera.squad_detector", "camera.squad_hdrplus", "camera.squad_hdrplus_eligibiliity")
     val fMagicCapture = arrayOf("camera.comice_enabled", "camera.comice_enabled_switch", "camera.comice_aurora_shutter_button_enabled", "camera.comice_options_menu_enabled", "camera.comice_auto_edit", "camera.comice_sapphire_enabled", "camera.comice_zoom_slider")
-    val fVideoCinematic4K = arrayOf("camcorder.peregrine")
 
     val fZoomFloat = mapOf(
         "camera.gouda.mantis_ratio_transition" to 4.3f

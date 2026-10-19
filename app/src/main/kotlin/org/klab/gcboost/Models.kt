@@ -6,7 +6,7 @@ object Models {
     val modelEight = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fAddMe, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
     val modelNinePro = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fEightK24FPS, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fVideoCinematic24FPS)
     val modelNine = arrayOf(Flags.fCameraCoach, Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
-    val modelTenPro = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fVideoCinematic24FPS)
+    val modelTenPro = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fMantisPortrait, Flags.fVideoCinematic24FPS, Flags.fVideoCinematic4K)
     val modelTen = arrayOf(Flags.fPhotoSphere, Flags.fQuickAccess, Flags.fLooks, Flags.fProControls, Flags.fVideoCinematic24FPS)
     val modelElevenPro = arrayOf(Flags.fPhotoSphere)
     val modelEleven = arrayOf(Flags.fPhotoSphere, Flags.fProControls)
