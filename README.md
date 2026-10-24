@@ -18,13 +18,13 @@ Tested on Pixel 8 Pro with GCam [10.4.117.936816638.14](https://www.apkmirror.co
 | **10x Zoom Button**           |      ✅       |      ➖       |       ➖       |       ➖       |
 | **8K 24FPS Video Boost**      |      ✅       |      ✅       |       ➖       |       ➖       |
 | **Camera Coach**              |      ✅       |      ✅       |       ➖       |       ➖       |
-| **24FPS Video Portrait**      |      ✅       |      ✅       |       ✅       |       ➖       |
 | **AV1 Video encoding**        |      ✅       |      ✅       |       ➖       |       ➖       |
+| **24FPS Video Portrait**      |      ✅       |      ✅       |       ✅       |       ➖       |
 | **5x Portrait**               |      ✅       |      ✅       |       ✅       |       ➖       |
 | **Quick Access Controls**     |      ✅       |      ✅       |       ✅       |       ➖       |
 | **Camera Looks**              |      ✅       |      ✅       |       ✅       |       ➖       |
-| **4K Video Potrait**          |      ❌       |      ❌       |       ✅       |       ➖       |
 | **Tele lens in Video Boost**  |      ❌       |      ➖       |       ➖       |       ➖       |
+| **4K Video Potrait**          |      ❌       |      ❌       |       ✅       |       ➖       |
 | **UW lens in Video Boost**    |      ❌       |      ❌       |       ➖       |       ➖       |
 | **High-Res Portrait (50 MP)** |      ❌       |      ❌       |       ➖       |       ➖       |
 | **100x Zoom**                 |      ❌       |      ❌       |       ➖       |       ➖       |
