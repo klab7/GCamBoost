@@ -16,16 +16,20 @@ Tested on Pixel 8 Pro with GCam [10.4.117.936816638.14](https://www.apkmirror.co
 | **4K 60FPS Video Boost**      |      ✅       |      ➖       |       ➖       |       ➖       |
 | **8K 30FPS Video Boost**      |      ✅       |      ➖       |       ➖       |       ➖       |
 | **10x Zoom Button**           |      ✅       |      ➖       |       ➖       |       ➖       |
-| **Tele lens in Video Boost**  |      ❌       |      ➖       |       ➖       |       ➖       |
 | **8K 24FPS Video Boost**      |      ✅       |      ✅       |       ➖       |       ➖       |
 | **Camera Coach**              |      ✅       |      ✅       |       ➖       |       ➖       |
+| **24FPS Video Portrait**      |      ✅       |      ✅       |       ✅       |       ➖       |
+| **AV1 Video encoding**        |      ✅       |      ✅       |       ➖       |       ➖       |
 | **5x Portrait**               |      ✅       |      ✅       |       ✅       |       ➖       |
 | **Quick Access Controls**     |      ✅       |      ✅       |       ✅       |       ➖       |
 | **Camera Looks**              |      ✅       |      ✅       |       ✅       |       ➖       |
+| **4K Video Potrait**          |      ❌       |      ❌       |       ✅       |       ➖       |
+| **Tele lens in Video Boost**  |      ❌       |      ➖       |       ➖       |       ➖       |
 | **UW lens in Video Boost**    |      ❌       |      ❌       |       ➖       |       ➖       |
 | **High-Res Portrait (50 MP)** |      ❌       |      ❌       |       ➖       |       ➖       |
 | **100x Zoom**                 |      ❌       |      ❌       |       ➖       |       ➖       |
 | **Magic Capture**             |      ❌       |      ❌       |       ❌       |       ➖       |
+
 
 Unavailable features are hardware dependent. If you know any workarounds, please let me know via [pull request](https://github.com/klab7/GCamBoost/pulls) or [issue](https://github.com/klab7/GCamBoost/issues/new).
 
@@ -36,7 +40,8 @@ Unavailable features are hardware dependent. If you know any workarounds, please
 * Pixel 11 Pro series (for now the only benefit is **Photo Sphere**)
 
 ### Other Pixel Devices
-Some features like **Camera Coach** or **Quick Access Controls** should work on any Pixel device. 
+Some features like **Camera Coach**, **Looks** or **Quick Access Controls** should work on any Pixel device.
+The module also adds Pro controls for non-Pro devices
 
 ## Installation
 1. Install the APK.
