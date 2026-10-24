@@ -16,6 +16,7 @@ object Flags {
     val fProControls = arrayOf("camera.ark_enabled", "camera.ark_ISO_available", "camera.ark_shutter_speed_available", "camera.ark_focus_available", "camera.ark_edge_hex")
     val fVideoCinematic24FPS = arrayOf("camcorder.stoop")
     val fVideoCinematic4K = arrayOf("camcorder.peregrine")
+    val fAV1Codec = arrayOf("camcorder.jellybean_setting", "camcorder_jellybean_feature")
 
     // Need hardware support.
     val fVideoBoost = arrayOf("camcorder_sapphire_opt", "camcorder.sapphire_opt_eligible")
